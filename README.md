@@ -80,4 +80,5 @@ Note: All actions described here for configuring Heroku applications using the H
 ![jietu20190130-170825](https://user-images.githubusercontent.com/31902939/52019086-aeff6180-24ba-11e9-980e-6f7cfc070dce.jpg)
 
 2. Click the entry for Postgres within the list of add-ons, then go to Settings. You can see the database credentials there.
+
 ![jietu20190130-170802](https://user-images.githubusercontent.com/31902939/52019087-af97f800-24ba-11e9-8122-933cc3a1fc86.jpg)
