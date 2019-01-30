@@ -1,10 +1,10 @@
 # ECSE321-tutorial-3 Event-Registration
 
-## Build and Deployment
+## Build and Deployment [tutorial](https://mcgill-ecse321-winter2019.github.io/EventRegistration-Tutorials/#_backend_with_spring_and_java_jpa)
 
 ### Gradle: A Build Framework
 
-Writing a Gradle(https://gradle.org/) build script that builds a single Gradle project referred to as Computation.
+Writing a [Gradle](https://gradle.org/) build script that builds a single Gradle project referred to as Computation.
 
 Create a folder called Computation, move sources and tests into that folder.
 
@@ -42,4 +42,16 @@ Step 8: Verify that it builds with gradle build -xtest.
 
 Step 9: Commit and push the files of the new Spring project.
 
+git add .
+
+git status #verify the files that are staged for commit
+
+git commit -m "Initial commit of the backend application"
+
+git push
+
 ## Heroku
+
+Preparations: Sign up on [Heroku] (https://www.heroku.com/)
+
+Install the command line client for Heroku: [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
