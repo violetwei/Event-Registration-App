@@ -1,4 +1,4 @@
-# ECSE321-tutorial-3 Event-Registration
+# ECSE321-tutorial3 Event-Registration
 
 ## Build and Deployment [tutorial](https://mcgill-ecse321-winter2019.github.io/EventRegistration-Tutorials/#_backend_with_spring_and_java_jpa)
 
@@ -24,7 +24,7 @@ Open a terminal & Install the newest version of Gradle with gradle --version
 
 ### Set up a Spring/Spring Boot backend app with Gradle
 
-Step 1: Install the Spring Boot CLI 
+Step 1: Install the [Spring Boot CLI](https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started-installing-spring-boot.html#getting-started-installing-the-cli)
 
 Step 2: Create a new repository named eventregistration
 
@@ -52,6 +52,29 @@ git push
 
 ## Heroku
 
-Preparations: Sign up on [Heroku] (https://www.heroku.com/)
+#### Preparations: 
+
+Sign up on [Heroku](https://www.heroku.com/)
 
 Install the command line client for Heroku: [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
+sudo npm install -g heroku
+
+Log in to Heroku CLI by opening a terminal an typing: heroku login
+
+### Create a Heroku app
+
+Creat a Heroku application and deploy the Hello world! Spring example. 
+
+The steps below will make it possible to store multiple different applications in the same git repository and deploy them individually to Heroku. 
+
+Note: All actions described here for configuring Heroku applications using the Heroku CLI could also be done via the web UI.
+
+1. Once logged in with the Heroku-CLI, create a new Heroku application: in the root of the git repository of your repository (assumed to be ~/git/eventregistration), issue heroku create eventregistration-backend-666 -n to create an application named "eventregistration-backend-666"
+
+2. Add the multi procfile and Gradle buildpacks to the app.
+
+### Add a database to the application
+
+1. Open the Heroku applications web page and go to Resources, then add the Heroku Postgres add-on.
+
+2. Click the entry for Postgres within the list of add-ons, then go to Settings. You can see the database credentials there.
