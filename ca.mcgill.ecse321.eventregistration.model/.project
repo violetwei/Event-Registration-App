@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>ca.mcgill.ecse321.eventregistration.model</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src-gen</name>
+			<type>2</type>
+			<location>/home/marci/git/ECSE321/eventregistration/EventRegistration-Backend/src/main/java</location>
+		</link>
+	</linkedResources>
+</projectDescription>
