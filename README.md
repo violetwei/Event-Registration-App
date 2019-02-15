@@ -82,3 +82,11 @@ Note: All actions described here for configuring Heroku applications using the H
 2. Click the entry for Postgres within the list of add-ons, then go to Settings. You can see the database credentials there.
 
 ![jietu20190130-170802](https://user-images.githubusercontent.com/31902939/52019087-af97f800-24ba-11e9-8122-933cc3a1fc86.jpg)
+
+Spring-based backend set up successfully
+
+![jietu20190215-172251](https://user-images.githubusercontent.com/31902939/52887680-9e9be780-3146-11e9-8513-d0e1b57a6429.jpg)
+
+JUnit Tests Passed!
+
+![jietu20190215-165941](https://user-images.githubusercontent.com/31902939/52887681-9e9be780-3146-11e9-926a-a200cc6a9e65.jpg)
