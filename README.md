@@ -1,4 +1,4 @@
-# ECSE321-tutorial3 Event-Registration
+# ECSE321-Tutorial Event-Registration
 
 ## Build and Deployment [tutorial](https://mcgill-ecse321-winter2019.github.io/EventRegistration-Tutorials/#_backend_with_spring_and_java_jpa)
 
