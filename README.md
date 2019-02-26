@@ -2,7 +2,7 @@
 
 ## Tutorial Section 2: Build and Deployment 
 
-### :satr2:Gradle: A Build Framework
+### :star2:Gradle: A Build Framework
 
 Writing a [Gradle](https://gradle.org/) build script that builds a single Gradle project referred to as Computation.
 
@@ -167,7 +167,7 @@ heroku buildpacks:add -a eventregistration-backend-<UNIQUE_ID> heroku/gradle
 
 2. Click the entry for Postgres within the list of add-ons, then go to *Settings*. You can see the database credentials there.
 
-### :satr:Extending the build for the Heroku deployment environment
+### :star:Extending the build for the Heroku deployment environment
 1. Before deploying, a top level *build.gradle* and *settings.gradle* need to be created in the root of the repository (i.e., in ~/git/eventregistration)
 
 build.gradle:
@@ -208,7 +208,7 @@ web: java -jar EventRegistration-Backend/build/libs/EventRegistration-Backend-0.
 3. **Configure** the multi-procfile buildpack to find the Procfile:
 ```heroku config:add PROCFILE=EventRegistration-Backend/Procfile --app eventregistration-backend-<UNIQUE_ID>```
 
-### :satr2:Deploying the app
+### :star2:Deploying the app
 
 1. Obtain and copy the *Heroku Git URL*
 ```heroku git:remote --app eventregistration-backend-<UNIQUE_ID>```
@@ -226,6 +226,8 @@ git push backend-heroku master
 3. Visit the link provided in the build output. It may take some time (even 30-60 seconds) for the server to answer the first HTTP request, so be patient!
 
 4. Save your work to the GitHub repository, too: ```git push origin master```
+
+
 
 ## Tutorial Section 3: Backend with Spring and Java JPA
 
