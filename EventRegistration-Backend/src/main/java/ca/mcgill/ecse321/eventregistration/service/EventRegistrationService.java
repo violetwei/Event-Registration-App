@@ -30,7 +30,9 @@ public class EventRegistrationService {
 	public Person createPerson(String name) {
 		if (name == null || name.trim().length() == 0) {
 			throw new IllegalArgumentException("Person name cannot be empty!");
-		}
+		} else if (personRepository.existsById(name)) {			
+			throw new IllegalArgumentException("Person has already been created!");
+		}		
 		Person person = new Person();
 		person.setName(name);
 		personRepository.save(person);
@@ -57,7 +59,9 @@ public class EventRegistrationService {
 		String error = "";
 		if (name == null || name.trim().length() == 0) {
 			error = error + "Event name cannot be empty! ";			
-		}
+		} else if (eventRepository.existsById(name)) {			
+			throw new IllegalArgumentException("Event has already been created!");
+		}		
 		if (date == null) {
 			error = error + "Event date cannot be empty! ";			
 		}
@@ -121,6 +125,7 @@ public class EventRegistrationService {
 		}
 
 		Registration registration = new Registration();
+		registration.setId(person.getName().hashCode() * event.getName().hashCode());
 		registration.setPerson(person);
 		registration.setEvent(event);
 
