@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Event Registration</string>
+    <string name="action_settings">Settings</string>
+    <string name="newperson_hint">Who?</string>
+    <string name="newperson_button">Add Person</string>
+    <string name="newevent_date_label">Date?</string>
+    <string name="personspinner_label">Person?</string>
+    <string name="eventspinner_label">Event?</string>
+    <string name="starttime_label">Start time?</string>
+    <string name="endtime_label">End time?</string>
+    <string name="newevent_date_first">01-01-2017</string>
+    <string name="newevent_button">Add Event</string>
+    <string name="starttime_first">10:00</string>
+    <string name="endtime_first">11:00</string>
+    <string name="register_button">Register</string>
+    <string name="newevent_hint">Event name?</string>
+    <string name="refresh_button">Refresh lists</string>
+    <string name="name_prompt">Select name</string>
+</resources>
