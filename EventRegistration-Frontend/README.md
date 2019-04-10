@@ -1,6 +1,7 @@
 # eventregistration-frontend
+Vue.js & Bootstrap
 
-> A project for the frontend component of the Event Registration application.
+> A project for the frontend component of an Event Registration application.
 
 ## Build Setup
 
