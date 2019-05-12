@@ -6,6 +6,6 @@ import ca.mcgill.ecse321.eventregistration.model.Event;
 
 public interface EventRepository extends CrudRepository<Event, String> {
 	
-	Event findEventByName(String name);
+	Event findByName(String name);
 
 }
