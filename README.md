@@ -23,3 +23,7 @@
 - :star2:Web frontend: The web frontend needs to be developed in Vue.js, a popular framework using HTML5 and JavaScript for reactive user interfaces. The web frontend is connected to the backend via HTTP calls using the Rest API.
 
 - :star2:Android frontend: The same backend services will also be accessed using an Android frontend application. Similarly, the Android frontend issues HTTP calls to call the backend.
+
+[Backend README](https://github.com/violetwei/Event-Registration-App/blob/master/EventRegistration-Backend/README.md)
+
+[Frontend README](https://github.com/violetwei/Event-Registration-App/tree/master/EventRegistration-Frontend/README.md)
