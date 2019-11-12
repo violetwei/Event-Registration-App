@@ -1,4 +1,4 @@
-# ECSE321-[Tutorial](https://mcgill-ecse321-winter2019.github.io/EventRegistration-Tutorials/) Event-Registration
+# Event-Registration Application
 
 ## Description of Event Registration System
 
@@ -27,3 +27,6 @@
 [Backend README](https://github.com/violetwei/Event-Registration-App/blob/master/EventRegistration-Backend/README.md)
 
 [Frontend README](https://github.com/violetwei/Event-Registration-App/tree/master/EventRegistration-Frontend/README.md)
+
+
+*Link to helpful [Tutorial](https://mcgill-ecse321-winter2019.github.io/EventRegistration-Tutorials/)*
