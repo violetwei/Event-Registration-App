@@ -1,6 +1,6 @@
 # Event-Registration Application
 
-## Description of Event Registration System
+## Description of the Event Registration System
 
 #### We assume that the following description is elicited from stakeholders (e.g., potential customers):
 
@@ -20,9 +20,9 @@
 
 - :star2:Backend: It provides the core business functionality exposed as RESTful services by using the Java Spring Framework. In addition, it connects to a database to store business data.
 
-- :star2:Web frontend: The web frontend needs to be developed in Vue.js, a popular framework using HTML5 and JavaScript for reactive user interfaces. The web frontend is connected to the backend via HTTP calls using the Rest API.
+- :star2:Web Frontend: The web frontend is developed in Vue.js, a popular framework using HTML5 and JavaScript for reactive user interfaces. The web frontend is connected to the backend via HTTP calls using the Rest API.
 
-- :star2:Android frontend: The same backend services will also be accessed using an Android frontend application. Similarly, the Android frontend issues HTTP calls to call the backend.
+- :star2:Android Frontend: The same backend services will also be accessed using an Android frontend application. Similarly, the Android frontend issues HTTP calls to call the backend.
 
 [Backend README](https://github.com/violetwei/Event-Registration-App/blob/master/EventRegistration-Backend/README.md)
 
