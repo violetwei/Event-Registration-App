@@ -1,6 +1,6 @@
-# Event-Registration Application
+# Event Registration System Application
 
-## Description of the Event Registration System
+## Description
 
 #### We assume that the following description is elicited from stakeholders (e.g., potential customers):
 
